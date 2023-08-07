@@ -1,0 +1,122 @@
+<data>
+  <book>
+    <title>Dune</title>
+    <author>Frank Herbert</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1965</publicationYear>
+  </book>
+  <book>
+    <title>Ender's Game</title>
+    <author>Orson Scott Card</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1985</publicationYear>
+  </book>
+  <book>
+    <title>1984</title>
+    <author>George Orwell</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1949</publicationYear>
+  </book>
+  <book>
+    <title>Neuromancer</title>
+    <author>William Gibson</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1984</publicationYear>
+  </book>
+  <book>
+    <title>Fahrenheit 451</title>
+    <author>Ray Bradbury</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1953</publicationYear>
+  </book>
+  <book>
+    <title>Foundation</title>
+    <author>Isaac Asimov</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1951</publicationYear>
+  </book>
+  <book>
+    <title>Brave New World</title>
+    <author>Aldous Huxley</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1932</publicationYear>
+  </book>
+  <book>
+    <title>Snow Crash</title>
+    <author>Neal Stephenson</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1992</publicationYear>
+  </book>
+  <book>
+    <title>Hyperion</title>
+    <author>Dan Simmons</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1989</publicationYear>
+  </book>
+  <book>
+    <title>Altered Carbon</title>
+    <author>Richard K. Morgan</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>2002</publicationYear>
+  </book>
+  <book>
+    <title>The Left Hand of Darkness</title>
+    <author>Ursula K. Le Guin</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1969</publicationYear>
+  </book>
+  <book>
+    <title>Blindsight</title>
+    <author>Peter Watts</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>2006</publicationYear>
+  </book>
+  <book>
+    <title>Ringworld</title>
+    <author>Larry Niven</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1970</publicationYear>
+  </book>
+  <book>
+    <title>The War of the Worlds</title>
+    <author>H.G. Wells</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1898</publicationYear>
+  </book>
+  <book>
+    <title>The Three-Body Problem</title>
+    <author>Liu Cixin</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>2008</publicationYear>
+  </book>
+  <book>
+    <title>Stranger in a Strange Land</title>
+    <author>Robert A. Heinlein</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1961</publicationYear>
+  </book>
+  <book>
+    <title>Red Mars</title>
+    <author>Kim Stanley Robinson</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1992</publicationYear>
+  </book>
+  <book>
+    <title>The Time Machine</title>
+    <author>H.G. Wells</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1895</publicationYear>
+  </book>
+  <book>
+    <title>Starship Troopers</title>
+    <author>Robert A. Heinlein</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1959</publicationYear>
+  </book>
+  <book>
+    <title>The Handmaid's Tale</title>
+    <author>Margaret Atwood</author>
+    <genre>Science Fiction</genre>
+    <publicationYear>1985</publicationYear>
+  </book>
+</data>

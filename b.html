@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Book Catalog</h1>
+    <table id="bookTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Publication Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be dynamically generated here -->
+        </tbody>
+    </table>
+
+    <script>
+        // Array of book objects with book information
+        const books = [
+            { title: "Book 1", author: "Author 1", genre: "Genre 1", publicationYear: "2020" },
+            { title: "Book 2", author: "Author 2", genre: "Genre 2", publicationYear: "2019" },
+            // Add more books as needed
+        ];
+
+        // Function to generate table rows dynamically
+        function generateTableRows() {
+            const tableBody = document.querySelector("#bookTable tbody");
+            let tableRows = "";
+
+            books.forEach(book => {
+                tableRows += `
+                    <tr>
+                        <td>${book.title}</td>
+                        <td>${book.author}</td>
+                        <td>${book.genre}</td>
+                        <td>${book.publicationYear}</td>
+                    </tr>
+                `;
+            });
+
+            tableBody.innerHTML = tableRows;
+        }
+
+        // Call the function to generate the table rows when the page loads
+        generateTableRows();
+    </script>
+</body>
+</html>

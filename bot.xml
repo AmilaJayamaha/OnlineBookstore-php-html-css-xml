@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+  <book>
+    <title>Introduction to Botny</title>
+    <chapter>Chapter 01</chapter>
+    <dept>Botny</dept>
+    <publicationYear>2016</publicationYear>
+    <downloadLink>folder\botny (1).pdf</downloadLink>
+  </book><book>
+    <title>Introduction to Botny</title>
+    <chapter>Chapter 02</chapter>
+    <dept>Botny</dept>
+    <publicationYear>2016</publicationYear>
+    <downloadLink>folder\botny (2).pdf</downloadLink>
+  </book><book>
+    <title>Introduction to Botny</title>
+    <chapter>Chapter 03</chapter>
+    <dept>Botny</dept>
+    <publicationYear>2016</publicationYear>
+    <downloadLink>folder\botny (3).pdf</downloadLink>
+  </book><book>
+    <title>Introduction to Botny</title>
+    <chapter>Chapter 04</chapter>
+    <dept>Botny</dept>
+    <publicationYear>2016</publicationYear>
+    <downloadLink>folder\botny (4).pdf</downloadLink>
+  </book><book>
+    <title>Introduction to Botny</title>
+    <chapter>Chapter 05</chapter>
+    <dept>Botny</dept>
+    <publicationYear>2016</publicationYear>
+    <downloadLink>folder\botny (5).pdf</downloadLink>
+  </book>
+ </books>

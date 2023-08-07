@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Catalog</title>
+    <style>
+        
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 20px;
+            }
+    
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+    
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+    
+            li {
+                border: 1px solid #ccc;
+                padding: auto;
+            }
+    
+            li:last-child {
+                margin-bottom: 0;
+            }
+            .max{
+                display: flex;
+                flex-direction: row;
+                justify-self: center;
+                justify-content: space-around;
+            }
+        </style>
+</head>
+<body>
+    
+    <h1>Book Catalog</h1>
+    <div id="bookList">
+        <!-- XML data will be displayed here -->
+    </div>
+
+    <script>
+        // JavaScript code to fetch and parse XML data
+        fetch('data.xml')
+            .then(response => response.text())
+            .then(data => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(data, 'text/xml');
+
+                const books = xmlDoc.getElementsByTagName('book');
+                const bookListDiv = document.getElementById('bookList');
+
+                let bookListHTML = '<ul>';
+                for (let i = 0; i < books.length; i++) {
+                    const title = books[i].getElementsByTagName('title')[0].textContent;
+                    const author = books[i].getElementsByTagName('author')[0].textContent;
+                    const genre = books[i].getElementsByTagName('genre')[0].textContent;
+                    const publicationYear = books[i].getElementsByTagName('publicationYear')[0].textContent;
+
+                    bookListHTML += `
+                    
+                    <div class="max">
+                        <div><img src="folder/image1.jpg"><hr></div>
+                        <div><li>
+                            <strong>Title:</strong> ${title}<br>
+                            <strong>Author:</strong> ${author}<br>
+                            <strong>Genre:</strong> ${genre}<br>
+                            <strong>Publication Year:</strong> ${publicationYear}<br>
+                        </li></div></div>
+                    `;
+                }
+                bookListHTML += '</ul>';
+
+                bookListDiv.innerHTML = bookListHTML;
+            })
+            .catch(error => {
+                console.error('Error fetching XML data:', error);
+            });
+    </script>
+</body>
+</html>

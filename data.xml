@@ -1,0 +1,122 @@
+<data>
+  <book>
+    <title>The Catcher in the Rye</title>
+    <author>J.D. Salinger</author>
+    <genre>Fiction</genre>
+    <publicationYear>1951</publicationYear>
+  </book>
+  <book>
+    <title>To Kill a Mockingbird</title>
+    <author>Harper Lee</author>
+    <genre>Fiction</genre>
+    <publicationYear>1960</publicationYear>
+  </book>
+  <book>
+    <title>1984</title>
+    <author>George Orwell</author>
+    <genre>Dystopian</genre>
+    <publicationYear>1949</publicationYear>
+  </book>
+  <book>
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <genre>Classic</genre>
+    <publicationYear>1925</publicationYear>
+  </book>
+  <book>
+    <title>Pride and Prejudice</title>
+    <author>Jane Austen</author>
+    <genre>Classic</genre>
+    <publicationYear>1813</publicationYear>
+  </book>
+  <book>
+    <title>Harry Potter and the Sorcerer's Stone</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <publicationYear>1997</publicationYear>
+  </book>
+  <book>
+    <title>The Hobbit</title>
+    <author>J.R.R. Tolkien</author>
+    <genre>Fantasy</genre>
+    <publicationYear>1937</publicationYear>
+  </book>
+  <book>
+    <title>The Lord of the Rings</title>
+    <author>J.R.R. Tolkien</author>
+    <genre>Fantasy</genre>
+    <publicationYear>1954</publicationYear>
+  </book>
+  <book>
+    <title>The Da Vinci Code</title>
+    <author>Dan Brown</author>
+    <genre>Thriller</genre>
+    <publicationYear>2003</publicationYear>
+  </book>
+  <book>
+    <title>The Hunger Games</title>
+    <author>Suzanne Collins</author>
+    <genre>Young Adult</genre>
+    <publicationYear>2008</publicationYear>
+  </book>
+  <book>
+    <title>The Alchemist</title>
+    <author>Paulo Coelho</author>
+    <genre>Adventure</genre>
+    <publicationYear>1988</publicationYear>
+  </book>
+  <book>
+    <title>Brave New World</title>
+    <author>Aldous Huxley</author>
+    <genre>Dystopian</genre>
+    <publicationYear>1932</publicationYear>
+  </book>
+  <book>
+    <title>The Shining</title>
+    <author>Stephen King</author>
+    <genre>Horror</genre>
+    <publicationYear>1977</publicationYear>
+  </book>
+  <book>
+    <title>The Chronicles of Narnia</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <publicationYear>1950</publicationYear>
+  </book>
+  <book>
+    <title>Animal Farm</title>
+    <author>George Orwell</author>
+    <genre>Satire</genre>
+    <publicationYear>1945</publicationYear>
+  </book>
+  <book>
+    <title>The Girl with the Dragon Tattoo</title>
+    <author>Stieg Larsson</author>
+    <genre>Crime</genre>
+    <publicationYear>2005</publicationYear>
+  </book>
+  <book>
+    <title>Wuthering Heights</title>
+    <author>Emily Brontë</author>
+    <genre>Classic</genre>
+    <publicationYear>1847</publicationYear>
+  </book>
+  <book>
+    <title>The Road</title>
+    <author>Cormac McCarthy</author>
+    <genre>Dystopian</genre>
+    <publicationYear>2006</publicationYear>
+  </book>
+  <book>
+    <title>Frankenstein</title>
+    <author>Mary Shelley</author>
+    <genre>Horror</genre>
+    <publicationYear>1818</publicationYear>
+  </book>
+  <book>
+    <title>The Kite Runner</title>
+    <author>Khaled Hosseini</author>
+    <genre>Historical Fiction</genre>
+    <publicationYear>2003</publicationYear>
+  </book>
+</data>
